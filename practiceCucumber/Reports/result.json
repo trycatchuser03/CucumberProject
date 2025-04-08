@@ -1,0 +1,271 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 12,
+        "name": "Adding products to cart in swag application",
+        "description": "",
+        "id": "accessing-swag-labs-application;adding-products-to-cart-in-swag-application;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 9758698500,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "hit swag application url",
+            "match": {
+              "location": "addToCartSteps.hitSwagApplicationUrl()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 710952900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "enter \"standard_user\" and \"secret_sauce\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"standard_user\"",
+                  "offset": 6
+                },
+                {
+                  "val": "\"secret_sauce\"",
+                  "offset": 26
+                }
+              ],
+              "location": "addToCartSteps.enterAnd(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 382886100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "click on login",
+            "match": {
+              "location": "addToCartSteps.clickOnLogin()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 239372000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "select the \"backpack\" and click on add to cart button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"backpack\"",
+                  "offset": 11
+                }
+              ],
+              "location": "addToCartSteps.selectTheAndClickOnAddToCartButton(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4801692400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "check whether cart is updated in swag application",
+            "match": {
+              "location": "addToCartSteps.checkWhetherCartIsUpdatedInSwagApplication()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 13,
+        "name": "Adding products to cart in swag application",
+        "description": "",
+        "id": "accessing-swag-labs-application;adding-products-to-cart-in-swag-application;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 8743167900,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "hit swag application url",
+            "match": {
+              "location": "addToCartSteps.hitSwagApplicationUrl()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 807118000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "enter \"performance_glitch_user\" and \"secret_sauce\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"performance_glitch_user\"",
+                  "offset": 6
+                },
+                {
+                  "val": "\"secret_sauce\"",
+                  "offset": 36
+                }
+              ],
+              "location": "addToCartSteps.enterAnd(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5308491800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "click on login",
+            "match": {
+              "location": "addToCartSteps.clickOnLogin()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 96255900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "select the \"bike-light\" and click on add to cart button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"bike-light\"",
+                  "offset": 11
+                }
+              ],
+              "location": "addToCartSteps.selectTheAndClickOnAddToCartButton(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4447669100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "check whether cart is updated in swag application",
+            "match": {
+              "location": "addToCartSteps.checkWhetherCartIsUpdatedInSwagApplication()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 14,
+        "name": "Adding products to cart in swag application",
+        "description": "",
+        "id": "accessing-swag-labs-application;adding-products-to-cart-in-swag-application;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 9333669100,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "hit swag application url",
+            "match": {
+              "location": "addToCartSteps.hitSwagApplicationUrl()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 616828100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "enter \"problem_user\" and \"secret_sauce\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"problem_user\"",
+                  "offset": 6
+                },
+                {
+                  "val": "\"secret_sauce\"",
+                  "offset": 25
+                }
+              ],
+              "location": "addToCartSteps.enterAnd(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 346580800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "click on login",
+            "match": {
+              "location": "addToCartSteps.clickOnLogin()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 460988900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "select the \"onesie\" and click on add to cart button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"onesie\"",
+                  "offset": 11
+                }
+              ],
+              "location": "addToCartSteps.selectTheAndClickOnAddToCartButton(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4156217700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "check whether cart is updated in swag application",
+            "match": {
+              "location": "addToCartSteps.checkWhetherCartIsUpdatedInSwagApplication()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Accessing Swag Labs Application",
+    "description": "",
+    "id": "accessing-swag-labs-application",
+    "keyword": "Feature",
+    "uri": "src\\test\\java\\features\\addToCart.feature",
+    "tags": []
+  }
+]

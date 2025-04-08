@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="3" time="50.215482">
+    <testcase classname="Accessing Swag Labs Application" name="Adding products to cart in swag application" time="15.897797">
+        <system-out><![CDATA[Given hit swag application url..............................................passed
+And enter "standard_user" and "secret_sauce"................................passed
+And click on login..........................................................passed
+And select the "backpack" and click on add to cart button...................passed
+Then check whether cart is updated in swag application......................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Accessing Swag Labs Application" name="Adding products to cart in swag application 2" time="19.403163">
+        <system-out><![CDATA[Given hit swag application url..............................................passed
+And enter "performance_glitch_user" and "secret_sauce"......................passed
+And click on login..........................................................passed
+And select the "bike-light" and click on add to cart button.................passed
+Then check whether cart is updated in swag application......................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Accessing Swag Labs Application" name="Adding products to cart in swag application 3" time="14.914522">
+        <system-out><![CDATA[Given hit swag application url..............................................passed
+And enter "problem_user" and "secret_sauce".................................passed
+And click on login..........................................................passed
+And select the "onesie" and click on add to cart button.....................passed
+Then check whether cart is updated in swag application......................passed
+]]></system-out>
+    </testcase>
+</testsuite>
